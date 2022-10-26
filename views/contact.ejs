@@ -1,0 +1,25 @@
+<%- include("partials/header"); -%>
+    <h1>Contact Page</h1>
+    <p>
+        <%= contactContent %>
+    </p>
+    <form style="max-width:80%;margin: 1rem auto">
+        <div class="input-container">
+          <i class="fa fa-user icon"></i>
+          <input class="input-field" type="text" placeholder="Name" name="name">
+        </div>
+      
+        <div class="input-container">
+          <i class="fas fa-address-card icon"></i>
+          <input class="input-field" type="text" placeholder="Last Name" name="l-name">
+        </div>
+        
+        <div class="input-container">
+            <i class="fas fa-comment-dots icon"></i>
+            <textarea class="input-field" name="msg" id="" cols="30" rows="10" placeholder="Massage"></textarea>
+          </div>
+      
+        <button type="submit" class="btn">Sind</button>
+      </form>
+
+<%- include("partials/footer"); -%>
